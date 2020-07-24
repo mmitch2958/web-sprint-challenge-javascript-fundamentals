@@ -26,6 +26,7 @@ CuboidMaker.prototype.volume = function () {
 
   Formula for cuboid surface area of a cube: 2 * (length * width + length * height + width * height)
 */
+
 CuboidMaker.prototype.surfaceArea = function () {
   return 2 * (this.legnth * this.width + this.legnth * this.height + this.width * this.height);
 
@@ -36,16 +37,16 @@ CuboidMaker.prototype.surfaceArea = function () {
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid.   
 */
 
-const cuboid = new CuboidMaker({
-  legnth: 10,
-  width: 10,
-  legnth: 10,
-});
+// const cuboid = new CuboidMaker({
+//   legnth: 4,
+//   width: 5,
+//   height: 5,
+// });
 
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
 
-console.log(cuboid.volume()); // 100
-console.log(cuboid.surfaceArea()); // 130
+// console.log(cuboid.volume()); // 100
+// console.log(cuboid.surfaceArea()); // 130
 
 
