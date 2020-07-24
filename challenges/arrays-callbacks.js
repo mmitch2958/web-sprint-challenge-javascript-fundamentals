@@ -101,7 +101,7 @@ function consume(a, b, cb){
 */
 const add = (num1, num2) => num1 + num2;
 const multiply = (num1, num2) => num1 * num2;
-const greeting = ("first", "last") => `Hello ${this.first} ${this.last}, nice to meet you !`
+const greeting = (first, last) => `Hello ${first} ${last}, nice to meet you !`
 
 
 
